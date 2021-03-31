@@ -6,7 +6,7 @@ module.exports = {
     return new Promise(async (resolve, reject) => {
       try {
         const client = await Mongoclient.connect(
-          "mongodb+srv://root:NAyxFXlSoOaliUFX@cluster0-3fupj.mongodb.net/test?retryWrites=true&w=majority"
+          "Hello"
         );
         const db = client.db("api");
         const collection = db.collection("users");
