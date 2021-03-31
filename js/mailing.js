@@ -7,7 +7,7 @@ module.exports = {
         service: "gmail",
         auth: {
           user: "sarthaksingh0900@gmail.com",
-          pass: "ldhnogjsnnmslxqw",
+          pass: "Hello",
         },
       });
       var toemaill = await req.body.email;
@@ -16,7 +16,7 @@ module.exports = {
         from: '"sarthak singh" <sarthaksingh0900@gmail.com>',
         to: toemaill,
         subject: "API Key",
-        html: `<p>Your apiKey for EncryptionApi is ${rand} click here to learn more about apiDocs ${'https://documenter.getpostman.com/view/6932248/Szt7AAed?version=latest'}</p>`,
+        html: `<p>Your apiKey for EncryptionApi is ${rand} click here to learn more about apiDocs ${'https://documenter.getpostman.com/view/6932248/TzCL997j'}</p>`,
       };
 
       transporter.sendMail(mail, function (err, info) {
